@@ -1,0 +1,9 @@
+services:
+  redis:
+    container_name: redis
+    image: redis:7        # use stable version
+    ports:
+      - "6379:6379"
+    volumes:
+      - D:/AI_loan_approval/redis_data:/data   # use forward slashes
+    restart: always

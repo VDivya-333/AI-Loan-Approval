@@ -1,0 +1,18 @@
+#python -m streamlit run streamlit_app.py
+#run with this comment
+
+langchain
+langgraph
+langchain-community
+langchain-core
+chromadb
+streamlit
+pydantic
+python-dotenv
+duckdb
+fastapi
+uvicorn
+requests
+numpy
+pandas
+SQLAlchemy
