@@ -108,11 +108,3 @@ python main.py borderline
 ## 🔔 Automated Reminders
 When an application enters the `PENDING_MANAGER` state, the `scheduler.py` initializes a background job. It sends daily email reminders to the configured manager email until the application status changes, ensuring no application is stalled.
 
-## 📝 License
-This project is for internal AI demonstration purposes.
-```
-
-<!--
-[PROMPT_SUGGESTION]How can I add a visualization of the LangGraph to the Streamlit dashboard?[/PROMPT_SUGGESTION]
-[PROMPT_SUGGESTION]Explain how to implement a real LLM into the agents instead of the current mock logic.[/PROMPT_SUGGESTION]
-->
